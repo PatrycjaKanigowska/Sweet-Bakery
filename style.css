@@ -120,7 +120,7 @@ header > nav img {
 }
 
 .hero {
-	background-image: url("https://images.pexels.com/photos/1343505/pexels-photo-1343505.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+	background-image: url("img/background.jpeg");
 	width: 100%;
 	height: 32rem;
 	background-size: cover;
@@ -271,7 +271,7 @@ h2 {
 }
 
 .tablet .bg {
-	background-image: url("img/background.jpeg");
+	background-image: url("img/laptop.png");
 	background-size: 36.33% auto;
 	background-repeat: no-repeat;
 	background-position: left 50%;
@@ -582,7 +582,6 @@ footer {
 	}
 	
 	.tablet .bg {
-		background-image: url("img/laptop.png");
 		background-position: center 0%;
 		background-size: auto 70%;
 	}
