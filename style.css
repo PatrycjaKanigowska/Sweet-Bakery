@@ -98,7 +98,7 @@ header > nav ul > li > a {
 }
 
 header > nav ul > li > a:hover {
-	color: #3399FF;	
+	color: #00c7e8;	
 	text-decoration: none;
 } 
 
@@ -329,7 +329,7 @@ h2 {
 
 .numbers p:last-of-type {
     font-size: 1.2rem;
-	color: #39F;
+	color: #00c7e8;
 	text-transform: uppercase;
 }
 
