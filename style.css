@@ -271,7 +271,7 @@ h2 {
 }
 
 .tablet .bg {
-	background-image: url("http://s5.ifotos.pl/img/kisspng-l_qeqappe.png");
+	background-image: url("img/background.jpeg");
 	background-size: 36.33% auto;
 	background-repeat: no-repeat;
 	background-position: left 50%;
@@ -582,7 +582,7 @@ footer {
 	}
 	
 	.tablet .bg {
-		background-image: url("http://s5.ifotos.pl/img/kisspng-l_qeqappe.png");
+		background-image: url("img/laptop.png");
 		background-position: center 0%;
 		background-size: auto 70%;
 	}
