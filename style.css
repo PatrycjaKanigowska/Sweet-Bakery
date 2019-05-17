@@ -159,19 +159,19 @@ h2 {
 	padding: 2.5rem 1rem;
 }
 
-.fa-2x {
-    width: 5rem;
-	height: 5rem;
+.fa-4x, .fa-3x {
+    width: 6rem;
+	height: 6rem;
 	background: #313332;
 	border-radius: 15%;
-	line-height: 5rem;
+	line-height: 6rem;
 	margin-left: auto;
 	margin-right: auto;
 	color: #FFF;
     font-size: 2rem;
 }
 
-.fa-2x:hover {
+.fa-3x:hover, .fa-4x:hover {
 	cursor: pointer;
 }
 
@@ -218,7 +218,7 @@ h2 {
 }
 
 .fa-lg {
-		font-size: 2rem;
+    padding: 5px;
 }
 
 .foto .gal:hover .layer {
@@ -445,11 +445,6 @@ footer {
     .layer {
 		height: 17rem;
 	}
-	
-	.fa-lg {
-		font-size: 2.4rem;
-	}
-	
 	.numbers {
 		display: block;	
 	}
@@ -543,14 +538,6 @@ footer {
 		margin-bottom: 2.2rem;
         
 	}
-	
-	.foto .layer i .fa {
-		position: absolute;
-		top: 43%;
-		left: 40%;
-		font-size: 12.5rem;
-	}
-
 	.gallery {
 		padding: 0 1rem;	
 	}
@@ -568,11 +555,6 @@ footer {
 	.foto img {
     	height: 20rem;
 	}
-	
-	.fa-lg {
-		font-size: 3rem;
-	}
-
 	.layer {
 		line-height: 22rem;
 	}
