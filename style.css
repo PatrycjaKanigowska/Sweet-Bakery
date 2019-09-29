@@ -55,12 +55,6 @@ html {
 	margin: 0 auto;
 }
 
-.bar {
-    width: 100%;
-    background-color: #313234;
-    height: .6rem;
-}
-
 /*----------------------------Header---------------------------------*/
 nav {
 	height: auto;
@@ -127,6 +121,8 @@ header > nav img {
 	background-position: center -5rem;
 	overflow: hidden;
 	position: relative;
+    border-top: .6rem solid #313234;
+    border-bottom: .6rem solid #313234;
 }
 
 h1, h2 {
