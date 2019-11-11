@@ -1,6 +1,6 @@
-# Sweet-Bakery-
+# Sweet-Bakery
 
-Live: https://patrycjakanigowska.github.io/Sweet-Bakery-/
+Live: https://patrycjakanigowska.github.io/Sweet-Bakery/
 
 Created with:
 HTML
