@@ -44,6 +44,17 @@
 .col-l-offset-10 {margin-left: 83.33%;}
 .col-l-offset-11 {margin-left: 91.66%;}
 
+/*------------------------------Fonts---------------------------------*/
+
+header > nav ul > li > a,
+h1, 
+.tagline p,
+.icons h2
+{
+text-transform: uppercase;
+}
+
+
 /*------------------------------Html---------------------------------*/
 html {
     font-size: 62.5%;
@@ -53,6 +64,10 @@ html {
 	width: 100%;
 	max-width: 120rem;
 	margin: 0 auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*----------------------------Header---------------------------------*/
@@ -80,15 +95,15 @@ header > nav ul > li {
 }
 
 header > nav ul > li > a {
-	line-height: 11.4rem;
+	line-height: 11rem;
 	padding: 0 2rem;
 	display: inline-block;
 	color: #000;
 	text-decoration: none;
-	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
-    font-size: 1.4rem;
-    font-weight: bold;
+	//text-transform: uppercase;
+	//font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
 }
 
 header > nav ul > li > a:hover {
@@ -97,17 +112,18 @@ header > nav ul > li > a:hover {
 } 
 
 header > nav img {
-    width: 25rem;
+    width: 32rem;
     height: auto;
-    padding: 1rem 0;
+    //padding: 1rem 0;
+    padding-top: .7rem;
     margin-left: 3rem;
 }
 
 /*--------------------------------Hero---------------------------------*/
-.slogan {
+.tagline {
 	background-color: rgba(0, 0, 0, .5);
-	width: 35rem;
-	height: 8.3rem;
+	//width: 37rem;
+	//height: 8.3rem;
 	position: absolute;
 	top: 5rem;
 	right: 0;
@@ -115,34 +131,35 @@ header > nav img {
 
 .hero {
 	background-image: url("img/background.jpeg");
-	width: 100%;
-	height: 32rem;
 	background-size: cover;
 	background-position: center -5rem;
+    width: 100%;
+	height: 32rem;
 	overflow: hidden;
 	position: relative;
     border-top: .6rem solid #313234;
     border-bottom: .6rem solid #313234;
 }
 
-h1, h2 {
-    font-family: 'Open Sans', sans-serif;
+h1, .tagline p {
+    //font-family: 'Open Sans', sans-serif;
     color: #FFF;
-    text-transform: uppercase;
+    //text-transform: uppercase;
     text-align: left;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
 	font-weight: 700;
 	padding: 1rem 0 .5rem 2rem;
 }
 
-h2 {
-    font-size: 1.6rem;
+.tagline p {
+    font-size: 1.8rem;
 	font-weight: 400;
 	line-height: 2rem;
-	padding: 0 2rem;
+	padding: 0 2rem 1rem;
+    max-width: 60%;
 }
 
 /*----------------------------------Icons------------------------------------*/
@@ -151,11 +168,12 @@ h2 {
 	text-align: center;
 }
 	
-.example13 {
-	padding: 2.5rem 1rem;
+.icons-padding {
+	padding: 2.5rem 3.5rem;
 }
 
-.fa-4x, .fa-3x {
+.fa-4x, 
+.fa-3x {
     width: 6rem;
 	height: 6rem;
 	background: #313332;
@@ -167,37 +185,51 @@ h2 {
     font-size: 2rem;
 }
 
-.fa-3x:hover, .fa-4x:hover {
+.fa-3x:hover, 
+.fa-4x:hover {
 	cursor: pointer;
 }
 
-.icons p:first-of-type, .icons p:last-of-type {
-    font-family: 'Open Sans', sans-serif;
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: .8rem;
+}
+
+.icons p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+/*
+.icons h2:first-of-type, .icons h2:last-of-type {
+    //font-family: 'Open Sans', sans-serif;
     color: #333333;
 }
 
-.icons p:first-of-type {
-	text-transform: uppercase;
-	font-weight: 600;
+.icons h2:first-of-type {
+	
+	
 	font-size: 1.6rem;
-	padding-top: 1rem;
-    padding-bottom: .2rem;
+	
 }
 
-.icons p:last-of-type {
+.icons h2:last-of-type {
 	font-size: 1.2rem;
 } 
+*/
 
 /*--------------------------------Foto-----------------------------*/
 .foto img {
-    height: 17rem;
+    height: 27rem;
     width: 100%;
     display: block;
 }
 
 .layer {
 	text-align: center;	
-	line-height: 17rem;
+	line-height: 27rem;
 	color: #FFF;
 }
 
@@ -232,8 +264,8 @@ h2 {
 }
 
 .place img {
-    height: 10rem;
-    width: 10rem;
+    height: 14rem;
+    width: 14rem;
     border-radius: 50%;
     margin-top: 1.5rem;
 }
@@ -261,7 +293,8 @@ h2 {
 }
 
 /*---------------------------------Tablet------------------------------------*/
-.tablet .col-l-4, .tablet .col-l-8 {
+.tablet .col-l-4, 
+.tablet .col-l-8 {
 	padding-top: 2.8rem;	
     padding-left: 1rem;
 }
@@ -271,21 +304,25 @@ h2 {
 	background-size: 36.33% auto;
 	background-repeat: no-repeat;
 	background-position: left 50%;
-	min-height: 20rem; 
+	min-height: 27rem; 
 }
 	
-.tablet .col-l-8 .col-l-12 p, .tablet .col-l-8 .col-l-7 p, .tablet .col-l-8 .col-l-5 p {
-    font-family: 'Open Sans', sans-serif;
+.tablet .col-l-8 .col-l-12 p, 
+.tablet .col-l-8 .col-l-7 p, 
+.tablet .col-l-8 .col-l-5 p {
+    //font-family: 'Open Sans', sans-serif;
     color: #FFF;
     text-align: left;
 }  
 
-.tablet .col-l-8 .col-l-7 p, .tablet .col-l-8 .col-l-5 p {
-    font-size: 1.5rem;
-    line-height: 1.8rem;
+.tablet .col-l-8 .col-l-7 p, 
+.tablet .col-l-8 .col-l-5 p {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
 }
 
-.tablet .col-l-8 .col-l-12 p, .tablet .col-l-8 .col-l-7 p {
+.tablet .col-l-8 .col-l-12 p, 
+.tablet .col-l-8 .col-l-7 p {
 	padding: .5rem 0;
 }
 
@@ -318,13 +355,13 @@ h2 {
 }
 
 .numbers p:first-of-type {
-	font-size: 2rem;
+	font-size: 2.4rem;
 	color: #000;
     padding-bottom: .5rem;
 }
 
 .numbers p:last-of-type {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 	color: #00c7e8;
 	text-transform: uppercase;
 }
@@ -348,14 +385,13 @@ h2 {
 } 
 
 .info .text1, .info .text2, .info .text3, .info h3 {
-    font-family: 'Open Sans', sans-serif;
     color: #FFF;
-    line-height: 1.8rem;
 }
 
 .info .text1, .info .text2, .info .text3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: left;
+    line-height: 2rem;
 }
 
 .info .text1, .info h3 {
@@ -373,9 +409,9 @@ h2 {
 .info h3 {
     width: 100%;
     text-align: left;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	text-transform: uppercase;
-	line-height: 1.5rem;
+	line-height: 2.2rem;
 	padding-bottom: .5rem;
 }
 
@@ -405,7 +441,7 @@ footer {
 	line-height: 3.8rem;
 	color: #FFF;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 } 
 
 /*-----------------------------Tablet---------------------------------*/
@@ -516,7 +552,7 @@ footer {
 		background-position: center 0;
 	}
 	
-	.slogan {
+	.tagline {
 		min-width: 20rem;
 		height: auto; 
 	}
@@ -526,13 +562,13 @@ footer {
 		padding: 1rem 0 1rem 2rem;
 	}
 
-	h2 {
+	.tagline p {
 		text-align: left;
 		padding-left: 2rem;
 		padding-bottom: 1rem;
 	}
 	
-	.example13 {
+	.place-padding {
 		padding-top: 1rem;
 		padding-bottom: 0;
 	}
