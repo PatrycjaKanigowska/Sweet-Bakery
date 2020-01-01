@@ -551,12 +551,12 @@ footer {
     nav {
 		text-align: center;
 		height: auto;
-	}
+	}   
     
-    
+    .place .icon-btn:nth-child(even) {
+        text-align: left;
+    }
 }
-
-
 
 /*---------------------------Small Mobiles--------------------------------*/
 @media (max-width: 575px) {
@@ -596,14 +596,12 @@ footer {
     }
 		
 	.hero {
-		//height: 17rem;
 		background-position: center 0;
 	}
-	
-	.place-padding {
-		padding-top: 1rem;
-		padding-bottom: 0;
-	}
+    
+    .tagline p {
+        max-width: 100%;
+    }
 	
 	.icons {
         margin-top: 1rem;
@@ -628,8 +626,14 @@ footer {
 	.foto img {
     	height: 20rem;
 	}
+    
 	.layer {
 		line-height: 22rem;
+	}
+    
+    .place-padding {
+		padding-top: 1rem;
+		padding-bottom: 0;
 	}
 	
 	.place p:first-of-type {
