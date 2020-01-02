@@ -369,6 +369,12 @@ h2 {
 	text-align: center;
 }
 
+.numbers p {
+    line-height: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 /*---------------------------------Info--------------------------------*/
 .info h3 {
     font-size: 1.5rem;
@@ -521,6 +527,15 @@ footer {
     .icons-padding {
         padding: 1.5rem 2.5rem;
     }
+    
+    .numbers p:last-of-type {
+        display: table-caption;
+        padding-left: 0;
+        padding-right: 0;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
    
 }
 
@@ -574,6 +589,14 @@ footer {
     .place .container {
         padding-left: 10rem;
         padding-right: 10rem;
+    }
+    
+    .numbers p:last-of-type {
+        padding-bottom: 2rem;
+    }
+    
+    .numbers {
+        padding-bottom: .5rem;
     }
 }
 
@@ -723,8 +746,8 @@ footer {
     .place .container {
         padding-left: 0;
         padding-right: 0;
-        margin-top: 2rem;
-        margin-bottom: 1.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
     }
     
     .place img {
@@ -744,40 +767,4 @@ footer {
     .place-padding {
         padding-top: 1rem;
     }
-    
-/*
-    .place p {
-        font-size: 1.6rem;
-        padding-top: .5rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .place {
-        padding: 1.5rem 0;	
-    }
-
-    .place img {
-        height: 14rem;
-        width: 14rem;
-        border-radius: 50%;
-        margin-top: 1.5rem;
-    }
-
-    .place img:hover {
-        cursor: pointer;
-    }
-
-    .object-fit_cover { 
-      object-fit: cover; 
-    }
-
-    .place [class*="col-"] {
-        text-align: center;
-    }
-
-    .place .container {
-        padding-left: 5rem;
-        padding-right: 5rem;
-    }
-*/
 }
