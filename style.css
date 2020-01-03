@@ -392,7 +392,6 @@ h2 {
 .info .social {
     font-size: 1.9rem;
 	display: inline-block;
-	float: left;
     padding: 1rem 0;
 }
 
@@ -406,7 +405,6 @@ h2 {
 
 .info .box:nth-of-type(odd) {
 	padding: 1.6rem;
-	text-align: center;
 } 
 
 .info .box:nth-of-type(even) {
@@ -434,6 +432,16 @@ h2 {
 	margin-bottom: .3rem;
 	background: #FFF;
 }	
+
+.box {
+    min-width: 28rem;
+}
+
+.box:last-of-type {
+    margin-right: 10.5rem;
+}
+
+
 
 /*---------------------------------Footer--------------------------------*/
 footer {
@@ -488,7 +496,6 @@ footer {
 	.numbers p {
 		display: block;	
 	}
-    
 }
 
 /*-----------------------------Tablet---------------------------------*/
@@ -598,6 +605,54 @@ footer {
     .numbers {
         padding-bottom: .5rem;
     }
+    
+    .info{
+        padding-top: 1.2rem;
+        
+    }
+    
+    .info h3, .info .text1 {
+        text-align: center;
+        float: none;
+    }
+    
+    .info .social {
+        margin: 0 auto;
+    }
+    
+    .info .social {
+        margin-left: 15%;
+	}
+    
+    .info .box:nth-of-type(even) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .box {
+        min-width: 24rem;
+    }
+    
+    .footer h3::after {
+		display: block;
+		width: 22rem;
+		margin: 1rem auto;
+	}	
+	
+	.example8 {
+		padding-left: 1rem;	
+	}
+	
+	.example15 {
+		float: none;
+		width: 80%;
+		max-width: 24rem;
+		margin: 0 auto;
+	}
+    
+    .info .box:nth-of-type(odd) {
+        padding: 1.6rem 0;
+    }
 }
 
 /*---------------------------Small Mobiles--------------------------------*/
@@ -690,46 +745,7 @@ footer {
 	.tablet .example8 {
         padding: 15rem 0 1rem 1.5rem;
 	}
-	
-	.icon {
-		text-align: center;	
-	}
-	
-	.footer h3::after {
-		display: block;
-		width: 20rem;
-		margin: 1rem auto;
-	}	
-	
-	.example8 {
-		padding-left: 1rem;	
-	}
-	
-	.example15 {
-		float: none;
-		width: 80%;
-		max-width: 25rem;
-		margin: 0 auto;
-	}
-    
-    .info{
-        padding-top: 1.2rem;
-        
-    }
-    
-    .info h3, .info .text1 {
-        text-align: center;
-    }
-    
-    .info .social {
-        margin: 0 auto;
-    }
-    
-    .info .social {
-		position: relative;
-		left: 22%;
-	}
-    
+
     .place .container {
         padding-left: 0;
         padding-right: 0;
