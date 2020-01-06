@@ -638,12 +638,8 @@ footer {
 		width: 22rem;
 		margin: 1rem auto;
 	}	
-	
-	.example8 {
-		padding-left: 1rem;	
-	}
-	
-	.example15 {
+
+	.info-container {
 		float: none;
 		width: 80%;
 		max-width: 24rem;
@@ -742,7 +738,7 @@ footer {
 		background-size: auto 70%;
 	}
 	
-	.tablet .example8 {
+	.tablet .tablet-container {
         padding: 15rem 0 1rem 1.5rem;
 	}
 
